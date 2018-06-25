@@ -16,7 +16,7 @@ a {
 .background {
   width: 100%;
   min-height: 100vh;
-  background-image: url("../images/background.jpg");
+  background-image: url("../images/background.png");
   background-position: 50% 80%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -25,8 +25,8 @@ a {
   align-items: center; }
 
 .form-photo {
-  background-image: url("../images/david.jpg");
-  border: 2px solid #0094bb;
+  background-image: url("../images/bart.jpg");
+  border: 2px solid rgba(46, 0, 187, 0.56);
   background-size: cover;
   width: 120px;
   height: 120px;
@@ -47,7 +47,7 @@ a {
 
 .form_border-top {
   height: 80px;
-  background-color: #0094bb;
+  background-color: rgba(46, 0, 187, 0.56);
   border-top-left-radius: 4px;
   border-top-right-radius: 4px; }
 
@@ -102,7 +102,7 @@ a {
 .forgotten__button {
   cursor: pointer;
   background: none;
-  color: #0094bb;
+  color: rgba(46, 0, 187, 0.56);
   border: 1px solid transparent;
   padding: 10px;
   font-size: 14px;
@@ -139,7 +139,7 @@ a {
   .required-top .sign {
     width: 100px;
     height: 31px;
-    background-color: #0094bb;
+    background-color: rgba(46, 0, 187, 0.56);
     color: white;
     border-radius: 4px;
     text-align: center;
@@ -148,7 +148,7 @@ a {
   .required-top .square {
     width: 15px;
     height: 15px;
-    background-color: #0094bb;
+    background-color: rgba(46, 0, 187, 0.56);
     transform: rotate(45deg);
     position: absolute;
     top: 23px;
@@ -156,13 +156,13 @@ a {
 
 .required-bottom {
   position: absolute;
-  top: 180px;
+  top: 172px;
   right: 8px;
   visibility: hidden; }
   .required-bottom .sign {
     width: 100px;
     height: 31px;
-    background-color: #0094bb;
+    background-color: rgba(46, 0, 187, 0.56);
     color: white;
     border-radius: 4px;
     text-align: center;
@@ -171,7 +171,7 @@ a {
   .required-bottom .square {
     width: 15px;
     height: 15px;
-    background-color: #0094bb;
+    background-color: rgba(46, 0, 187, 0.56);
     transform: rotate(45deg);
     position: absolute;
     top: 23px;
@@ -208,7 +208,7 @@ a {
 
 .form_border-top-reset {
   height: 80px;
-  background-color: #0094bb;
+  background-color: rgba(46, 0, 187, 0.56);
   border-top-left-radius: 4px;
   border-top-right-radius: 4px; }
   @media (max-width: 680px) {
@@ -243,8 +243,8 @@ a {
       padding: 30px 8px 10px; } }
 
 .form-photo-reset {
-  background-image: url("../images/david.jpg");
-  border: 2px solid #0094bb;
+  background-image: url("../images/bart.jpg");
+  border: 2px solid rgba(46, 0, 187, 0.56);
   background-size: cover;
   width: 120px;
   height: 120px;
@@ -303,7 +303,7 @@ a {
     position: absolute;
     right: 1px;
     top: 1px;
-    border-right: 40px solid #0094bb;
+    border-right: 40px solid rgba(46, 0, 187, 0.56);
     border-bottom: 32px solid transparent;
     border-left: transparent;
     border-top: transparent; }

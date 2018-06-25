@@ -23,7 +23,7 @@ a {
 .background {
   width: 100%;
   min-height: 100vh;
-  background-image: url("../images/background.jpg");
+  background-image: url("../images/background.png");
   background-position: 50% 80%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -33,7 +33,7 @@ a {
 }
 
 .form-photo {
-  background-image: url("../images/david.jpg");
+  background-image: url("../images/bart.jpg");
   border: 2px solid $form-blue;
   background-size: cover;
   width: 120px;
@@ -183,7 +183,7 @@ a {
 
 .required-bottom {
   position: absolute;
-  top: 180px;
+  top: 172px;
   right: 8px;
   visibility: hidden;
 
@@ -282,7 +282,7 @@ a {
   }
 }
 .form-photo-reset {
-  background-image: url("../images/david.jpg");
+  background-image: url("../images/bart.jpg");
   border: 2px solid $form-blue;
   background-size: cover;
   width: 120px;
